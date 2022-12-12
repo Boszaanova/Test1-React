@@ -1,5 +1,5 @@
 import React from "react";
-import Data from "./MOCK_DATA.json";
+
 
 const Buttons = ({ filterItem, setItem, menuItems1 }) => {
   return (
@@ -16,12 +16,7 @@ const Buttons = ({ filterItem, setItem, menuItems1 }) => {
         })}
 
 
-        <button
-          className="btn-success text-white p-1 px-3 mx-5 fw-bold btn"
-          onClick={() => setItem(Data)}
-        >
-          All/Clear
-        </button>
+        
 
 
       </div>

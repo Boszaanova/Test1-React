@@ -43,3 +43,6 @@
   height: 15vw;
   object-fit: cover;
 }
+.search {
+  display: inline;
+}
