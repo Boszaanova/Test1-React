@@ -52,8 +52,8 @@ const App = () => {
             />
           </div>
 
-         
-          
+
+
 
           <Card item={item} />
 

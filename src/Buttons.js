@@ -9,13 +9,13 @@ const Buttons = ({ filterItem, setItem, menuItems1 }) => {
           return (
             <button
               className="btn-secondary btn-lg px-2 mx-2 btn "
-              onClick={() => filterItem(Val)} 
+              onClick={() => filterItem(Val)}
               key={id}>{Val}
             </button>
           );
         })}
 
-        
+
         <button
           className="btn-success text-white p-1 px-3 mx-5 fw-bold btn"
           onClick={() => setItem(Data)}
@@ -23,10 +23,10 @@ const Buttons = ({ filterItem, setItem, menuItems1 }) => {
           All/Clear
         </button>
 
-        
+
       </div>
 
-      
+
     </>
   );
 };
